@@ -1,7 +1,7 @@
 import {HelloComponent} from './hello';
 import {TestBed, async} from '@angular/core/testing';
 
-describe('hello component', () => {
+xdescribe('hello component', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [

@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 import {HelloComponent} from './hello';
+import {LoginComponent} from './components/login/login';
 
 @Component({
   selector: 'fountain-root',
@@ -12,7 +13,12 @@ export const routes: Routes = [
   {
     path: '',
     component: HelloComponent
-  }
+  },
+  {
+    path: 'login',
+    component: LoginComponent
+  },
+
 ];
 
 export const routing = RouterModule.forRoot(routes);
